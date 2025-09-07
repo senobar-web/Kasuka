@@ -1,4 +1,4 @@
-import Index from "./src/components/pages/Index.jsx/Index"
+import Index from "./src/components/pages/Index/Index"
 import Detailes from "./src/components/pages/detailes/detailes"
 let routes =[
     {path:'/' , element:<Index />},
