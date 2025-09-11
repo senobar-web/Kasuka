@@ -15,7 +15,7 @@ export default function () {
         <div className="container font-Parastoo ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  ">
             <div className=" mb-7">
-              <Link to="/" className="flex items-center w-[330px] mb-5 ">
+              <Link to="/" className="flex items-center  mb-5">
                 <img
                   src="./images/logo.png"
                   alt="logo"
@@ -35,13 +35,13 @@ export default function () {
                 ))}
               </div>
             </div>
-            <div className="text-white w-[220px] h-[228px] mb-5">
+            <div className="text-white h-[228px] mb-5 ">
               <h1 className="text-base mb-2">لینک های مفید</h1>
               {links.map((link) => (
                 <Links {...link} key={link.id}></Links>
               ))}
             </div>
-            <div className="text-white w-[330px] h-[228px]  mb-6">
+            <div className="text-white h-[228px] mb-6 ">
               <h1 className="text-base mb-2">خدمات ما </h1>
               {service.map((serv) => (
                 <Services {...serv} key={serv.id}></Services>
