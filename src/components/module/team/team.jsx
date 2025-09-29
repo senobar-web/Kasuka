@@ -3,7 +3,7 @@ import Socialmedia from "../../module/social/socialMedia";
 import { socialIcon } from "../../../../Data";
 
 export default function Team(props) {
-  const [socials, setSocials] = useState(socialIcon);
+  const [socials] = useState(socialIcon);
   return (
     <>
       <div className="rounded-lg shadow-xl bg-white overflow-hidden flex flex-col relative group  ">
