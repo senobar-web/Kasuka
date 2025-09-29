@@ -11,7 +11,12 @@ export default function Header() {
             to="/"
             className="flex items-start justify-center text-white hover:text-white text-3xl"
           >
-            <img src="./images/logo.png" alt="logo" className="size-10" loading="lazy" />
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              className="size-10"
+              loading="lazy"
+            />
             Kasuka
           </Link>
         </div>
