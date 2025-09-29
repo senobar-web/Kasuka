@@ -1,8 +1,8 @@
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 
-export default function (props) {
+export default function Services(props) {
   return (
-    <div>
+    <>
       <ul className="py-2.5">
         <li className="flex items-center w-full ">
           <MdOutlineKeyboardArrowLeft className="text-[#ffc451] size-5" />
@@ -14,6 +14,6 @@ export default function (props) {
           </a>
         </li>
       </ul>
-    </div>
+    </>
   );
 }
