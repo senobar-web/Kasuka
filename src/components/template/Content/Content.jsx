@@ -9,7 +9,7 @@ import Testimonial from "./Testimonial";
 
 export default function Content() {
   return (
-    <div>
+    <>
       <Banner />
       <About />
       <Client />
@@ -18,6 +18,6 @@ export default function Content() {
       <Testimonial />
       <Teams />
       <ContactUs />
-    </div>
+    </>
   );
 }
