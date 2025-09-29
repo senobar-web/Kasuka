@@ -5,7 +5,7 @@ import Feature from "../../module/features/feature";
 import { FeatureItem } from "../../../../Data";
 
 export default function Features() {
-  const [featurs, setFeaturs] = useState(FeatureItem);
+  const [featurs] = useState(FeatureItem);
   useEffect(() => {
     AOS.init({
       disable: "phone",

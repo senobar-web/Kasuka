@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { titleHeader, TeamsItem } from "../../../../Data";
 
 export default function Teams() {
-  const [teams, setTeams] = useState(TeamsItem);
+  const [teams] = useState(TeamsItem);
   useEffect(() => {
     AOS.init({
       disable: "phone",

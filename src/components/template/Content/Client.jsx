@@ -10,7 +10,7 @@ import Logo from "../../module/client/client";
 import { clientImg } from "../../../../Data";
 
 export default function Client() {
-  const [images, setImages] = useState(clientImg);
+  const [images] = useState(clientImg);
   useEffect(() => {
     AOS.init({
       disable: "phone",

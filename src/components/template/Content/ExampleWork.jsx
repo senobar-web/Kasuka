@@ -7,7 +7,7 @@ import CategoryBtn from "../../module/categoryBtn/CategoryBtn";
 const allCategories = ["همه", ...new Set(exWork.map((work) => work.category))];
 
 export default function ExampleWork() {
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
   const [portfolio, setPortfolio] = useState(exWork);
   const filterWork = (category) => {
     if (category === "همه") {

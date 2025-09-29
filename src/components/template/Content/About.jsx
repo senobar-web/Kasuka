@@ -1,9 +1,9 @@
-import {useState } from "react";
+import { useState } from "react";
 import Abouts from "../../module/about/Abouts";
 import { textAbout } from "../../../../Data";
 
 export default function About() {
-  const [texts, setTexts] = useState(textAbout);
+  const [texts] = useState(textAbout);
 
   return (
     <section className="about py-14 " id="about">

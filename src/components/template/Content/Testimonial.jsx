@@ -8,7 +8,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import Testimonials from "../../module/testimonial/TestImonials";
 
 export default function Testimonial() {
-  const [testimage, setTestimage] = useState(TestimonialImg);
+  const [testimage] = useState(TestimonialImg);
   return (
     <section className="testimonial testimg  mt-14 relative before:absolute before:bg-[rgba(0,0,0,0.7)] before:top-0 before:bottom-0 before:right-0 before:left-0  ">
       <div
