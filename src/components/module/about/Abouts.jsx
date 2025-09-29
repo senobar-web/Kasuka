@@ -1,6 +1,6 @@
 import { RiCheckDoubleLine } from "react-icons/ri";
 
-export default function Abouts({ id, subTitle }) {
+export default function Abouts({subTitle }) {
   return (
     <>
       <div className="flex ">
