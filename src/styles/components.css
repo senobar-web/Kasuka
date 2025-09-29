@@ -1,0 +1,46 @@
+@layer components {
+  .container {
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .testimg {
+    background-image: url("/images/testimonials-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  .custom-bullet {
+    @apply h-3 w-3 rounded-full bg-gray-300;
+  }
+  .goTopHidden {
+    display: none;
+  }
+  .goTop {
+    display: block;
+  }
+  .sub2:hover .pick_up {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .swiper-pagination-bullet {
+    @apply w-2 h-2 rounded-full bg-[#ddd] opacity-100 mx-1;
+  }
+  .swiper-pagination-bullet-active {
+    @apply bg-[#ffc451];
+  }
+  .swiper-transition {
+    transition-timing-function: linear;
+  }
+  .overlayi {
+    @apply before:bg-[rgba(21,21,21,0.6)] before:absolute before:z-20  before:top-0 before:right-0 before:left-0 before:bottom-0   before:transition-all before:duration-200 before:ease-in;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 40;
+  }
+}

@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@import "../src/styles/base.css";
+@import "../src/styles/components.css";
+@import "../src/styles/theme.css";
+
+:root {
+  font-family: Parastoo, system-ui;
+  /* font-weight: 400; */
+}
+
