@@ -5,10 +5,10 @@ import FooterSocial from "../../template/Footer/FooterSocial";
 import { socialFooter, footerLinks, servicesFooter } from "../../../../Data";
 import { Link } from "react-router-dom";
 
-export default function () {
-  const [links, setLinks] = useState(footerLinks);
-  const [service, setService] = useState(servicesFooter);
-  const [medsocial, setMedsocials] = useState(socialFooter);
+export default function Footer () {
+  const [links] = useState(footerLinks);
+  const [service] = useState(servicesFooter);
+  const [medsocial] = useState(socialFooter);
   return (
     <>
       <footer className="bg-[#151515] pt-16 pb-8 h-auto">
@@ -31,7 +31,7 @@ export default function () {
               </div>
               <div className="mt-4 flex items-center gap-1">
                 {medsocial.map((media) => (
-                  <FooterSocial {...media}></FooterSocial>
+                  <FooterSocial key={media.id} {...media}></FooterSocial>
                 ))}
               </div>
             </div>
