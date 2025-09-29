@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
 export default function MobileResponsive() {
   const [isOpen, setIsOpen] = useState(false);
-  // const [position,setPosition]=useState('')
   const showNav = () => {
     setIsOpen(!isOpen);
   };
@@ -89,7 +88,12 @@ export default function MobileResponsive() {
             href="#"
             className="flex items-start justify-center text-white hover:text-white text-3xl"
           >
-            <img src="./images/logo.png" alt="logo" className="size-10" loading="lazy" />{" "}
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              className="size-10"
+              loading="lazy"
+            />{" "}
             Kasuka
           </a>
         </div>
