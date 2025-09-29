@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import { titleHeader, contactAddress } from "../../../../Data";
 
 export default function ContactUs() {
-  const [contacts, setContacts] = useState(contactAddress);
+  const [contacts] = useState(contactAddress);
 
   useEffect(() => {
     AOS.init({
