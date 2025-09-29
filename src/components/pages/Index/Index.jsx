@@ -5,11 +5,11 @@ import Content from "../../template/Content/Content";
 
 export default function Index() {
   return (
-    <div>
+    <>
       <Header />
       <Content />
       <Footer />
       <ScrollTop></ScrollTop>
-    </div>
+    </>
   );
 }
